@@ -16,7 +16,7 @@ const updateUserRouter = require('./routes/updateUser');
 const announcementsRoute = require('./routes/announcements');
 
 const app = express();
-const port = process.env.PORT || 3001;
+const port = process.env.PORT || 3002;
 
 require('dotenv').config();
 
